@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <string.h>
+#include <funciones.h>
+
+int main(void)
+{
+   articulos_t articulos[CANT_ARTICULOS] = {0};
+   printf("Bienvenido al final de Info 1\n\n");
+   
+   CargaFichas(&articulos[0]);
+   ImpresionFichas(&articulos[0]);
+   Ordenamiento(&articulos[0]);
+}
